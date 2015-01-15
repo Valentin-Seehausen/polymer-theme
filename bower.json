@@ -2,7 +2,8 @@
   "name": "polymer-theme",
   "description": "Polymer theme using Sass and Material Design",
   "authors": [
-    "Start Polymer (https://startpolymer.github.io)"
+    "Start Polymer (https://startpolymer.github.io)",
+    "Josef Jezek (https://github.com/JosefJezek)"
   ],
   "version": "0.0.1",
   "homepage": "https://github.com/StartPolymer/polymer-theme",
