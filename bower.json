@@ -1,0 +1,29 @@
+{
+  "name": "polymer-theme",
+  "description": "Polymer theme using Sass and Material Design",
+  "authors": [
+    "Start Polymer (https://startpolymer.github.io)"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/StartPolymer/polymer-theme",
+  "repository": "https://github.com/StartPolymer/polymer-theme.git",
+  "main": "sass/_polymer-theme.scss",
+  "keywords": [
+    "polymer",
+    "theme",
+    "sass",
+    "scss",
+    "material",
+    "design"
+  ],
+  "ignore": [
+    "**/.*"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.2"
+  },
+  "devDependencies": {
+    "sass-material-colors": "~0.0.5"
+  }
+}

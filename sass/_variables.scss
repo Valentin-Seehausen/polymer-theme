@@ -1,0 +1,49 @@
+//
+// Variables
+// --------------------------------------------------
+
+// Sass Material Colors
+@import '../bower_components/sass-material-colors/sass/sass-material-colors';
+
+// Google Fonts
+@import url(//fonts.googleapis.com/css?family=RobotoDraft:regular,bold&lang=en);
+$font-family: RobotoDraft, Roboto, 'Helvetica Neue', sans-serif !default;
+
+// Material Design Colors
+$primary-color-name:    'indigo';
+$accent-color-name:     'pink';
+
+$primary-color:         material-color($primary-color-name, '500');
+$light-primary-color:   material-color($primary-color-name, '100');
+$dark-primary-color:    material-color($primary-color-name, '700');
+$text-primary-color:    white; // Icons color
+
+$accent-color:          material-color($accent-color-name, 'a200');
+$light-accent-color:    material-color($accent-color-name, 'a100'); // Fallback accent color
+$dark-accent-color:     material-color($accent-color-name, 'a400'); // Fallback accent color
+
+$primary-text-color:    material-color('grey', '900');
+$secondary-text-color:  material-color('grey', '600'); // Icons color
+$hint-text-color:       material-color('grey', '400'); // Disabled color
+$divider-color:         material-color('grey', '300');
+$alert-color:           material-color('red', '500');
+$background-color:      #eee;
+
+// H1 - H6
+$h1-font-size-base: 2em !default;
+$h1-margin-base: 0.67em 0 !default;
+
+$h2-font-size-base: 1.5em !default;
+$h2-margin-base: 0.83em 0 !default;
+
+$h3-font-size-base: 1.17em !default;
+$h3-margin-base: 1em 0 !default;
+
+$h4-font-size-base: 1em !default;
+$h4-margin-base: 1.33em 0 !default;
+
+$h5-font-size-base: 0.83em !default;
+$h5-margin-base: 1.67em 0 !default;
+
+$h6-font-size-base: 0.75em !default;
+$h6-margin-base: 2.33em 0 !default;
