@@ -37,4 +37,4 @@ bower install polymer-theme --save
 
 ## Variables
 
-[_variables.scss](https://github.com/StartPolymer/polymer-theme/sass/_variables.scss)
+[_variables.scss](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
