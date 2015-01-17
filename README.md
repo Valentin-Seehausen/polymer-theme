@@ -4,10 +4,6 @@ Polymer theme using [Sass](http://sass-lang.com) and [Material Design](http://ww
 
 For scaffolding Polymer apps use [Yeoman generator](https://github.com/yeoman/generator-polymer).
 
-## Dependencies
-
-- [Sass Material Colors](https://github.com/minusfive/sass-material-colors)
-
 ## Installation
 
 ### Bower Component

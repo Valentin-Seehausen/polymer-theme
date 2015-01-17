@@ -23,8 +23,5 @@
   "license": "MIT",
   "dependencies": {
     "polymer": "Polymer/polymer#~0.5.2"
-  },
-  "devDependencies": {
-    "sass-material-colors": "~0.0.5"
   }
 }
