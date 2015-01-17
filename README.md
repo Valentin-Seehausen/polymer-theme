@@ -31,6 +31,14 @@ bower install polymer-theme --save
 <body class="polymer-theme">
 ```
 
-## Variables
+## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
 
-[_variables.scss](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
+```scss
+// Roboto Font Combinations
+$font-name:             'alegreya';
+$font-lang:             'en';
+
+// Material Design Colors
+$primary-color-name:    'indigo';
+$accent-color-name:     'pink';
+```

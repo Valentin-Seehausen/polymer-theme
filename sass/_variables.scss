@@ -5,9 +5,14 @@
 // Material Design color palette
 @import 'material-colors';
 
-// Google Fonts
-@import url(//fonts.googleapis.com/css?family=RobotoDraft:regular,bold&lang=en);
-$font-family: RobotoDraft, Roboto, 'Helvetica Neue', sans-serif !default;
+// Roboto Font Combinations
+@import 'roboto-fonts';
+
+$font-name:             'alegreya';
+$font-lang:             'en';
+$heading-font:          roboto-font($font-name, 'heading');
+$body-font:             roboto-font($font-name, 'body');
+@import url(roboto-font($font-name, 'url') + '&lang=' + $font-lang);
 
 // Material Design Colors
 $primary-color-name:    'indigo';

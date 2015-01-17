@@ -6,13 +6,15 @@
 & {
   color: $primary-text-color;
   background: $background-color;
-  font-family: $font-family;
+  font-family: $body-font;
 
   h1 {
+    font-family: $heading-font;
     font-size: $h1-font-size-base;
     margin: $h1-margin-base;
   }
   h2 {
+    font-family: $heading-font;
     font-size: $h2-font-size-base;
     margin: $h2-margin-base;
   }

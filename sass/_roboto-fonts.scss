@@ -1,0 +1,30 @@
+// Roboto Font Combinations
+// https://gist.github.com/8faa215aca23696a3e3c
+
+$roboto-fonts: (
+  'alegreya': (
+    'heading': 'Alegreya, serif',
+    'body': 'RobotoDraft, Roboto, 'Helvetica Neue', sans-serif !default',
+    'url': '//fonts.googleapis.com/css?family=RobotoDraft:regular,bold|Alegreya'
+  )
+)
+
+
+/**
+ * Retrieves a font name from the $roboto-fonts Sass map
+ *
+ * @function
+ * @param {string} font-name             - quoted, lower-case, dasherized font
+ *                                          name (e.g. 'alegreya')
+ * @param {string} [font-type='heading']  - quoted, lower-case font type (e.g.
+ *                                          'heading')
+ */
+@function roboto-font($font-name, $font-type: 'heading') {
+  $font: map-get(map-get($roboto-fonts, $font-name), $font-type);
+  @if $font {
+    @return $font;
+  } @else {
+    // Libsass still doesn't seem to support @error
+    @warn "=> ERROR: FONT NOT FOUND! <= | Your $font-name, $font-type combination did not match any of the values in the $roboto-fonts map.";
+  }
+}
