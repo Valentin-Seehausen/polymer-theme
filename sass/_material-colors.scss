@@ -323,11 +323,11 @@ $material-colors: (
  * @function
  * @param {string} color-name             - quoted, lower-case, dasherized color
  *                                          name (e.g. 'pink', 'amber')
- * @param {string} [color-variant='500']  - quoted, lowercase color variant (e.g.
+ * @param {string} [color-variant='500']  - quoted, lower-case color variant (e.g.
  *                                          '200', 'a100')
  */
 @function material-color($color-name, $color-variant: '500') {
-  $color: map-get(map-get($material-colors, $color-name),$color-variant);
+  $color: map-get(map-get($material-colors, $color-name), $color-variant);
   @if $color {
     @return $color;
   } @else {
