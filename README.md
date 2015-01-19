@@ -1,6 +1,6 @@
 # Polymer Theme
 
-Polymer theme using [Sass](http://sass-lang.com) and [Material Design](http://www.google.com/design/).
+Polymer theme using [Sass](http://sass-lang.com) and [Material Design](http://www.google.com/design/spec/material-design/introduction.html).
 
 For scaffolding Polymer apps use [Polymer Base Template](https://github.com/StartPolymer/polymer-base-template).
 
@@ -50,6 +50,6 @@ $accent-color-name:     'pink';
 - [Link to source](https://gist.github.com/8faa215aca23696a3e3c)
 
 ```scss
-$font-name:             'alegreya';
+$heading-font-name:     'roboto-slab';
 $font-lang:             'en';
 ```

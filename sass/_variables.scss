@@ -7,11 +7,11 @@
 
 // Roboto Font Combinations
 // https://gist.github.com/8faa215aca23696a3e3c
-$font-name:             'alegreya';
+$heading-font-name:     'roboto-slab';
 $font-lang:             'en';
-$heading-font:          unquote(roboto-font($font-name, 'heading'));
-$body-font:             unquote(roboto-font($font-name, 'body'));
-@import url(roboto-font($font-name, 'url') + '&lang=' + $font-lang);
+$heading-font:          unquote(roboto-font($heading-font-name, 'heading'));
+$body-font:             unquote(roboto-font($heading-font-name, 'body'));
+@import url(roboto-font($heading-font-name, 'url') + '&lang=' + $font-lang);
 
 // Material Design Colors
 // http://www.google.com/design/spec/style/color.html#color-color-palette
