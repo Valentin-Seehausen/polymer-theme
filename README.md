@@ -37,7 +37,8 @@ bower install polymer-theme --save
 ## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
 
 ### [Material Design Colors](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_material-colors.scss)
- - [source](http://www.google.com/design/spec/style/color.html#color-color-palette)
+
+- [Link to source](http://www.google.com/design/spec/style/color.html#color-color-palette)
 
 ```scss
 $primary-color-name:    'indigo';
@@ -45,7 +46,8 @@ $accent-color-name:     'pink';
 ```
 
 ### [Roboto Font Combinations](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_roboto-fonts.scss)
- - [source](https://gist.github.com/8faa215aca23696a3e3c)
+
+- [Link to source](https://gist.github.com/8faa215aca23696a3e3c)
 
 ```scss
 $font-name:             'alegreya';
