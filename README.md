@@ -17,11 +17,11 @@ bower install polymer-theme --save
 ### main.scss
 
 ```
-// Local copy of _variables.scss
+// Make copy of _variables.scss and place to styles dir
 @import 'variables';
 
 .polymer-theme {
-  @import '../bower_components/polymer-theme/sass/polymer-theme';
+  @import '../bower_components/polymer-theme/sass/base';
 }
 ```
 

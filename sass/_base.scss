@@ -1,7 +1,16 @@
 // Polymer theme using Sass and Material Design.
 //
-// Start Polymer (https://startpolymer.github.io)
+// Start Polymer (https://startpolymer.org)
 // --------------------------------------------------
+
+// Roboto Font Combinations
+@import 'modules/roboto-fonts';
+
+// Material Design color palette
+@import 'modules/material-colors';
+
+// Variables
+@import 'variables';
 
 & {
   color: $primary-text-color;
@@ -42,44 +51,44 @@
     }
 
     core-icon {
-      @import 'core-icon';
+      @import 'elements/core-icon';
     }
 
     core-toolbar {
-      @import 'core-toolbar';
+      @import 'elements/core-toolbar';
     }
 
     paper-button {
-      @import 'paper-button';
+      @import 'elements/paper-button';
     }
 
     paper-fab {
-      @import 'paper-fab';
+      @import 'elements/paper-fab';
     }
 
     paper-input,
     paper-input-decorator {
-      @import 'paper-input-decorator';
+      @import 'elements/paper-input-decorator';
     }
 
     paper-item {
-      @import 'paper-item';
+      @import 'elements/paper-item';
     }
 
     paper-ripple {
-      @import 'paper-ripple';
+      @import 'elements/paper-ripple';
     }
 
     paper-spinner {
-      @import 'paper-spinner';
+      @import 'elements/paper-spinner';
     }
 
     paper-tabs {
-      @import 'paper-tabs';
+      @import 'elements/paper-tabs';
     }
 
     paper-toast {
-      @import 'paper-toast';
+      @import 'elements/paper-toast';
     }
   }
 }

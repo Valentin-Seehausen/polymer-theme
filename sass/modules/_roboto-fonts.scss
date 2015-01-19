@@ -4,10 +4,10 @@
 $roboto-fonts: (
   'alegreya': (
     'heading': 'Alegreya, serif',
-    'body': 'RobotoDraft, Roboto, 'Helvetica Neue', sans-serif !default',
+    'body': 'RobotoDraft, Roboto, "Helvetica Neue", sans-serif',
     'url': '//fonts.googleapis.com/css?family=RobotoDraft:regular,bold|Alegreya'
   )
-)
+);
 
 
 /**
@@ -25,6 +25,6 @@ $roboto-fonts: (
     @return $font;
   } @else {
     // Libsass still doesn't seem to support @error
-    @warn "=> ERROR: FONT NOT FOUND! <= | Your $font-name, $font-type combination did not match any of the values in the $roboto-fonts map.";
+    @warn '=> ERROR: FONT NOT FOUND! <= | Your $font-name, $font-type combination did not match any of the values in the $roboto-fonts map.';
   }
 }
