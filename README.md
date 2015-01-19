@@ -1,14 +1,14 @@
-# Polymer theme
+# Polymer Theme
 
 Polymer theme using [Sass](http://sass-lang.com) and [Material Design](http://www.google.com/design/).
 
-For scaffolding Polymer apps use [Yeoman generator](https://github.com/yeoman/generator-polymer).
+For scaffolding Polymer apps use [Polymer Base Template](https://github.com/StartPolymer/polymer-base-template).
 
 ## Installation
 
 ### Bower Component
 
-```
+```sh
 bower install polymer-theme --save
 ```
 
@@ -16,9 +16,11 @@ bower install polymer-theme --save
 
 ### main.scss
 
-```
+```scss
 @import '../bower_components/polymer-theme/sass/modules/all';
-// Make copy of _variables.scss and place to styles dir
+
+// Make copy of ../bower_components/polymer-theme/sass/_variables.scss
+// and place to styles dir
 @import 'variables';
 
 .polymer-theme {
@@ -28,18 +30,22 @@ bower install polymer-theme --save
 
 ### index.html
 
-```
+```html
 <body class="polymer-theme">
 ```
 
 ## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
 
-```scss
-// Roboto Font Combinations
-$font-name:             'alegreya';
-$font-lang:             'en';
+### [Material Design Colors](http://www.google.com/design/spec/style/color.html#color-color-palette)
 
-// Material Design Colors
+```scss
 $primary-color-name:    'indigo';
 $accent-color-name:     'pink';
+```
+
+### [Roboto Font Combinations](https://gist.github.com/8faa215aca23696a3e3c)
+
+```scss
+$font-name:             'alegreya';
+$font-lang:             'en';
 ```
