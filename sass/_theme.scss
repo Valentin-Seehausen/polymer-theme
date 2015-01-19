@@ -3,15 +3,6 @@
 // Start Polymer (https://startpolymer.org)
 // --------------------------------------------------
 
-// Roboto Font Combinations
-@import 'modules/roboto-fonts';
-
-// Material Design color palette
-@import 'modules/material-colors';
-
-// Variables
-@import 'variables';
-
 & {
   color: $primary-text-color;
   background: $background-color;
@@ -22,73 +13,40 @@
     font-size: $h1-font-size-base;
     margin: $h1-margin-base;
   }
+
   h2 {
     font-family: $heading-font;
     font-size: $h2-font-size-base;
     margin: $h2-margin-base;
   }
+
   h3 {
+    font-family: $heading-font;
     font-size: $h3-font-size-base;
     margin: $h3-margin-base;
   }
+
   h4 {
     font-size: $h4-font-size-base;
     margin: $h4-margin-base;
   }
+
   h5 {
     font-size: $h5-font-size-base;
     margin: $h5-margin-base;
   }
+
   h6 {
     font-size: $h6-font-size-base;
     margin: $h6-margin-base;
   }
 
   /deep/ {
+    @import 'elements/all';
+
     a {
       text-decoration: none;
       color: currentcolor;
-    }
-
-    core-icon {
-      @import 'elements/core-icon';
-    }
-
-    core-toolbar {
-      @import 'elements/core-toolbar';
-    }
-
-    paper-button {
-      @import 'elements/paper-button';
-    }
-
-    paper-fab {
-      @import 'elements/paper-fab';
-    }
-
-    paper-input,
-    paper-input-decorator {
-      @import 'elements/paper-input-decorator';
-    }
-
-    paper-item {
-      @import 'elements/paper-item';
-    }
-
-    paper-ripple {
-      @import 'elements/paper-ripple';
-    }
-
-    paper-spinner {
-      @import 'elements/paper-spinner';
-    }
-
-    paper-tabs {
-      @import 'elements/paper-tabs';
-    }
-
-    paper-toast {
-      @import 'elements/paper-toast';
     }
   }
 }
