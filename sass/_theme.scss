@@ -8,20 +8,21 @@
   background: $background-color;
   font-family: $body-font;
 
-  h1 {
+  h1, h2, h3 {
     font-family: $heading-font;
+  }
+
+  h1 {
     font-size: $h1-font-size-base;
     margin: $h1-margin-base;
   }
 
   h2 {
-    font-family: $heading-font;
     font-size: $h2-font-size-base;
     margin: $h2-margin-base;
   }
 
   h3 {
-    font-family: $heading-font;
     font-size: $h3-font-size-base;
     margin: $h3-margin-base;
   }
@@ -42,8 +43,6 @@
   }
 
   /deep/ {
-    @import 'elements/all';
-
     a {
       text-decoration: none;
       color: currentcolor;
