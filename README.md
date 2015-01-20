@@ -3,7 +3,8 @@
 Polymer theme using [Sass](http://sass-lang.com) and
 [Material Design](http://www.google.com/design/spec/material-design/introduction.html) language.
 
-For scaffolding Polymer apps use [Polymer Base Template](https://github.com/StartPolymer/polymer-base-template).
+For scaffolding Polymer apps use [Polymer Base Template](https://github.com/StartPolymer/polymer-base-template)
+or [Yeoman generator](https://github.com/yeoman/generator-polymer).
 
 ## Installation
 
