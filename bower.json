@@ -1,14 +1,15 @@
 {
   "name": "polymer-theme",
-  "description": "Polymer theme using Sass and Material Design",
+  "description": "Polymer theme using Sass and Material Design language.",
   "authors": [
-    "Start Polymer (https://startpolymer.github.io)",
+    "Start Polymer (https://startpolymer.org)",
     "Josef Jezek (https://github.com/JosefJezek)"
   ],
-  "version": "0.0.1",
   "homepage": "https://github.com/StartPolymer/polymer-theme",
-  "repository": "https://github.com/StartPolymer/polymer-theme.git",
-  "main": "sass/_polymer-theme.scss",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/StartPolymer/polymer-theme.git"
+  },
   "keywords": [
     "polymer",
     "theme",
