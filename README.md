@@ -1,6 +1,7 @@
 # Polymer Theme
 
-Polymer theme using [Sass](http://sass-lang.com) and [Material Design](http://www.google.com/design/spec/material-design/introduction.html).
+Polymer theme using [Sass](http://sass-lang.com) and
+[Material Design](http://www.google.com/design/spec/material-design/introduction.html) language.
 
 For scaffolding Polymer apps use [Polymer Base Template](https://github.com/StartPolymer/polymer-base-template).
 
@@ -23,7 +24,7 @@ bower install polymer-theme --save
   // Make copy of ../bower_components/polymer-theme/sass/_variables.scss to styles dir
   @import 'variables';
 
-  @import '../bower_components/polymer-theme/sass/theme';
+  @import '../bower_components/polymer-theme/sass/base';
 
   /deep/ {
     @import '../bower_components/polymer-theme/sass/elements/all';
@@ -39,18 +40,18 @@ bower install polymer-theme --save
 
 ## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
 
-### [Material Design Colors](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_material-colors.scss)
+### [Material Design Colors](http://www.google.com/design/spec/style/color.html#color-color-palette)
 
-- [Link to source](http://www.google.com/design/spec/style/color.html#color-color-palette)
+- [Link to module](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_material-colors.scss)
 
 ```scss
 $primary-color-name:    'indigo';
 $accent-color-name:     'pink';
 ```
 
-### [Roboto Font Combinations](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_roboto-fonts.scss)
+### [Roboto Font Combinations](https://gist.github.com/8faa215aca23696a3e3c)
 
-- [Link to source](https://gist.github.com/8faa215aca23696a3e3c)
+- [Link to module](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_roboto-fonts.scss)
 
 ```scss
 $heading-font-name:     'roboto-slab';
