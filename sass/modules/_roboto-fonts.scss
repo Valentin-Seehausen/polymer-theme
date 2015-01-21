@@ -67,7 +67,11 @@ $roboto-fonts: (
 @function roboto-font($font-name, $font-type: 'heading') {
   $font: map-get(map-get($roboto-fonts, $font-name), $font-type);
   @if $font {
-    @return $font;
+    @if $font-type == 'url' {
+      @return $font;
+    } @else {
+      @return unquote($font);
+    }
   } @else {
     // Libsass still doesn't seem to support @error
     @warn '=> ERROR: FONT NOT FOUND! <= | Your $font-name, $font-type combination did not match any of the values in the $roboto-fonts map.';

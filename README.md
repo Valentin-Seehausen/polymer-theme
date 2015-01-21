@@ -21,6 +21,13 @@ bower install polymer-theme --save
 ```scss
 @import '../bower_components/polymer-theme/sass/modules/all';
 
+// Roboto Font Combinations
+$heading-font-name:     'roboto-slab';
+$font-lang:             'en';
+$heading-font:          roboto-font($heading-font-name, 'heading');
+$body-font:             roboto-font($heading-font-name, 'body');
+@import url(roboto-font($heading-font-name, 'url') + '&lang=' + $font-lang);
+
 .polymer-theme {
   // Make copy of ../bower_components/polymer-theme/sass/_variables.scss to styles dir
   @import 'variables';
