@@ -39,6 +39,8 @@ bower install polymer-theme --save
 <body class="polymer-theme">
 ```
 
+See on [Polymer Base Template](https://github.com/StartPolymer/polymer-base-template)
+
 ## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
 
 ### [Material Design Colors](http://www.google.com/design/spec/style/color.html#color-color-palette)
