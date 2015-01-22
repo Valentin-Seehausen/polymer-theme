@@ -3,7 +3,7 @@
 Polymer theme using [Sass](http://sass-lang.com) and
 [Material Design](http://www.google.com/design/spec/material-design/introduction.html) language.
 
-For scaffolding Polymer apps use [Polymer Base Template](https://github.com/StartPolymer/polymer-base-template)
+For scaffolding Polymer apps use [Polymer Boilerplate](https://github.com/StartPolymer/polymer-boilerplate)
 or [Yeoman generator](https://github.com/yeoman/generator-polymer).
 
 ## Installation
@@ -46,7 +46,7 @@ $body-font:             roboto-font($heading-font-name, 'body');
 <body class="polymer-theme">
 ```
 
-See the [Polymer Base Template](https://github.com/StartPolymer/polymer-base-template)
+See the [Polymer Boilerplate](https://github.com/StartPolymer/polymer-boilerplate)
 
 ## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
 
