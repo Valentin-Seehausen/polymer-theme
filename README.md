@@ -31,7 +31,6 @@ $body-font:             roboto-font($heading-font-name, 'body');
 .polymer-theme {
   // Make copy of ../bower_components/polymer-theme/sass/_variables.scss to styles dir
   @import 'variables';
-
   @import '../bower_components/polymer-theme/sass/base';
 
   /deep/ {
