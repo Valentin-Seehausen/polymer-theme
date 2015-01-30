@@ -19,7 +19,7 @@ bower install polymer-theme --save
 ### main.scss
 
 ```scss
-@import '../bower_components/polymer-theme/sass/modules/all';
+@import 'bower_components/polymer-theme/sass/modules/all';
 
 // Roboto Font Combinations
 $heading-font-name:     'roboto-slab';
@@ -29,12 +29,12 @@ $body-font:             roboto-font($heading-font-name, 'body');
 @import url(roboto-font($heading-font-name, 'url') + '&lang=' + $font-lang);
 
 .polymer-theme {
-  // Make copy of ../bower_components/polymer-theme/sass/_variables.scss to styles dir
+  // Make copy of bower_components/polymer-theme/sass/_variables.scss to styles dir
   @import 'variables';
-  @import '../bower_components/polymer-theme/sass/base';
+  @import 'bower_components/polymer-theme/sass/base';
 
   /deep/ {
-    @import '../bower_components/polymer-theme/sass/elements/all';
+    @import 'bower_components/polymer-theme/sass/elements/all';
   }
 }
 ```
@@ -66,3 +66,7 @@ $accent-color-name:     'pink';
 $heading-font-name:     'roboto-slab';
 $font-lang:             'en';
 ```
+
+## [MIT License](https://github.com/StartPolymer/polymer-theme/blob/master/LICENSE)
+
+Copyright (c) 2015 Start Polymer ([https://startpolymer.org](https://startpolymer.org))
