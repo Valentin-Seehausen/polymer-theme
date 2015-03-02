@@ -1,4 +1,4 @@
-@import 'modules/material-colors';
+@import 'modules/all';
 
 // Material Design Colors
 // http://www.google.com/design/spec/style/color.html#color-color-palette
@@ -25,6 +25,9 @@ $alert-color:           material-color('red', '500') !default;
 // https://github.com/StartPolymer/polymer-theme/wiki/Roboto-Font-Combinations
 $heading-font-name:     'roboto-slab' !default;
 $font-lang:             'en' !default;
+$heading-font:          roboto-font($heading-font-name, 'heading') !default;
+$body-font:             roboto-font($heading-font-name, 'body') !default;
+$font-url: roboto-font($heading-font-name, 'url') + '&lang=' + $font-lang !default;
 
 // h1 - h6
 $h1-font-size-base: 2em !default;

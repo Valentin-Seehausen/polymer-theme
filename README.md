@@ -29,7 +29,8 @@ $accent-color-name:     'pink';
 $heading-font-name:     'roboto-slab';
 $font-lang:             'en';
 
-@import 'bower_components/polymer-theme/sass/fonts';
+@import 'bower_components/polymer-theme/sass/variables';
+@import url($font-url);
 
 .polymer-theme {
   @import 'bower_components/polymer-theme/sass/base';
