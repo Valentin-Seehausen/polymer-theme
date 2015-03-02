@@ -21,8 +21,5 @@
   "ignore": [
     "**/.*"
   ],
-  "license": "MIT",
-  "dependencies": {
-    "polymer": "Polymer/polymer#~0.5.2"
-  }
+  "license": "MIT"
 }

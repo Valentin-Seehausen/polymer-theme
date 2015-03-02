@@ -1,0 +1,46 @@
+@import 'modules/material-colors';
+
+// Material Design Colors
+// http://www.google.com/design/spec/style/color.html#color-color-palette
+$primary-color-name:    'indigo' !default;
+$accent-color-name:     'pink' !default;
+
+$primary-color:         material-color($primary-color-name, '500') !default;
+$light-primary-color:   material-color($primary-color-name, '100') !default;
+$dark-primary-color:    material-color($primary-color-name, '700') !default;
+$text-primary-color:    #fff !default; // Icons color
+
+$accent-color:          material-color($accent-color-name, 'a200') !default;
+$light-accent-color:    material-color($accent-color-name, 'a100') !default; // Fallback accent color
+$dark-accent-color:     material-color($accent-color-name, 'a400') !default; // Fallback accent color
+
+$primary-text-color:    material-color('grey', '900') !default;
+$secondary-text-color:  material-color('grey', '600') !default; // Icons color
+$hint-text-color:       material-color('grey', '400') !default; // Disabled color
+$divider-color:         material-color('grey', '300') !default;
+$background-color:      material-color('grey', '100') !default;
+$alert-color:           material-color('red', '500') !default;
+
+// Roboto Font Combinations
+// https://github.com/StartPolymer/polymer-theme/wiki/Roboto-Font-Combinations
+$heading-font-name:     'roboto-slab' !default;
+$font-lang:             'en' !default;
+
+// h1 - h6
+$h1-font-size-base: 2em !default;
+$h1-margin-base: .67em 0 !default;
+
+$h2-font-size-base: 1.5em !default;
+$h2-margin-base: .83em 0 !default;
+
+$h3-font-size-base: 1.17em !default;
+$h3-margin-base: 1em 0 !default;
+
+$h4-font-size-base: 1em !default;
+$h4-margin-base: 1.33em 0 !default;
+
+$h5-font-size-base: .83em !default;
+$h5-margin-base: 1.67em 0 !default;
+
+$h6-font-size-base: .75em !default;
+$h6-margin-base: 2.33em 0 !default;

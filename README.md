@@ -1,14 +1,18 @@
 # Polymer Theme
 
-Polymer theme using [Sass](http://sass-lang.com) and
+Polymer theme based on
 [Material Design](http://www.google.com/design/spec/material-design/introduction.html) language.
 
-For scaffolding Polymer apps use [Polymer Boilerplate](https://github.com/StartPolymer/polymer-boilerplate)
-or [Yeoman generator](https://github.com/yeoman/generator-polymer).
+For scaffolding Polymer apps use [Polymer Starter Kit](https://github.com/StartPolymer/polymer-starter-kit)
+or [Polymer generator](https://github.com/yeoman/generator-polymer).
+
+## Features
+
+- Using [Sass](http://sass-lang.com) CSS Preprocessor
+- [Material Design Colors](http://www.google.com/design/spec/style/color.html#color-color-palette)
+- [Roboto Font Combinations](https://github.com/StartPolymer/polymer-theme/wiki/Roboto-Font-Combinations)
 
 ## Installation
-
-### Bower Component
 
 ```sh
 bower install polymer-theme --save
@@ -19,23 +23,16 @@ bower install polymer-theme --save
 ### main.scss
 
 ```scss
-@import 'bower_components/polymer-theme/sass/modules/all';
+$primary-color-name:    'indigo';
+$accent-color-name:     'pink';
 
-// Roboto Font Combinations
 $heading-font-name:     'roboto-slab';
 $font-lang:             'en';
-$heading-font:          roboto-font($heading-font-name, 'heading');
-$body-font:             roboto-font($heading-font-name, 'body');
-@import url(roboto-font($heading-font-name, 'url') + '&lang=' + $font-lang);
+
+@import 'bower_components/polymer-theme/sass/fonts';
 
 .polymer-theme {
-  // Make copy of bower_components/polymer-theme/sass/_variables.scss to styles dir
-  @import 'variables';
   @import 'bower_components/polymer-theme/sass/base';
-
-  /deep/ {
-    @import 'bower_components/polymer-theme/sass/elements/all';
-  }
 }
 ```
 
@@ -45,22 +42,20 @@ $body-font:             roboto-font($heading-font-name, 'body');
 <body class="polymer-theme">
 ```
 
-See the [Polymer Boilerplate](https://github.com/StartPolymer/polymer-boilerplate)
+## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/variables.scss)
 
-## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/_variables.scss)
+### Material Design Colors
 
-### [Material Design Colors](http://www.google.com/design/spec/style/color.html#color-color-palette)
-
-- [Link to module](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_material-colors.scss)
+- [Link to module](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/material-colors.scss)
 
 ```scss
 $primary-color-name:    'indigo';
 $accent-color-name:     'pink';
 ```
 
-### [Roboto Font Combinations](https://gist.github.com/8faa215aca23696a3e3c)
+### Roboto Font Combinations
 
-- [Link to module](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/_roboto-fonts.scss)
+- [Link to module](https://github.com/StartPolymer/polymer-theme/blob/master/sass/modules/roboto-fonts.scss)
 
 ```scss
 $heading-font-name:     'roboto-slab';
@@ -69,4 +64,4 @@ $font-lang:             'en';
 
 ## [MIT License](https://github.com/StartPolymer/polymer-theme/blob/master/LICENSE)
 
-Copyright (c) 2015 Start Polymer ([https://startpolymer.org](https://startpolymer.org))
+Copyright (c) 2015 Start Polymer ([http://startpolymer.org](http://startpolymer.org))
