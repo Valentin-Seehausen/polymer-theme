@@ -1,9 +1,6 @@
 paper-item {
   color: $dark-primary-color;
-
-  &:hover {
-    background: $light-accent-color;
-  }
+  transition: all 300ms ease-in-out;
 
   &.core-selected {
     background: $accent-color;
