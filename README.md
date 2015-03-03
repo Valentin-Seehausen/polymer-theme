@@ -23,16 +23,13 @@ bower install polymer-theme --save
 ### main.scss
 
 ```scss
-$primary-color-name:    'indigo';
-$accent-color-name:     'pink';
-
 $heading-font-name:     'roboto-slab';
 $font-lang:             'en';
-
-@import 'bower_components/polymer-theme/sass/variables';
-@import url($font-url);
+@import 'bower_components/polymer-theme/sass/fonts';
 
 .polymer-theme {
+  $primary-color-name:  'indigo';
+  $accent-color-name:   'pink';
   @import 'bower_components/polymer-theme/sass/base';
 }
 ```
