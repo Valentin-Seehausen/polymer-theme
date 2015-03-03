@@ -13,6 +13,7 @@ $text-primary-color:    #fff !default; // Icons color
 $accent-color:          material-color($accent-color-name, 'a200') !default;
 $light-accent-color:    material-color($accent-color-name, 'a100') !default; // Fallback accent color
 $dark-accent-color:     material-color($accent-color-name, 'a400') !default; // Fallback accent color
+$text-accent-color:			#fff !default;
 
 $primary-text-color:    material-color('grey', '900') !default;
 $secondary-text-color:  material-color('grey', '600') !default; // Icons color

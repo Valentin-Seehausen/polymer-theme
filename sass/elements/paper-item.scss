@@ -1,19 +1,18 @@
-& {
-  color: $text-primary-color;
-  background: $primary-color;
+paper-item {
+  color: $dark-primary-color;
 
   &:hover {
-    background: $dark-primary-color;
+    background: $light-accent-color;
   }
 
   &.core-selected {
-    color: $primary-color;
     background: $accent-color;
+    color: $text-accent-color;
   }
 
   core-icon {
     height: 1.5em;
+    margin-right: .5em;
     width: 1.5em;
-    margin-right: 0.5em;
   }
 }
