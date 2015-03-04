@@ -1,10 +1,61 @@
-& {
+paper-button {
+  &[primary] {
+    color: $primary-color;
+  }
+
+  &[secondary] {
+    color: $secondary-color;
+  }
+
+  &[success] {
+    color: $success-color;
+  }
+
+  &[info] {
+    color: $info-color;
+  }
+
+  &[warning] {
+    color: $warning-color;
+  }
+
+  &[error] {
+    color: $error-color;
+  }
+
+  &[link] {
+    color: $link-color;  
+  }
+
   &[raised] {
     color: $text-primary-color;
-    background: $primary-color;
 
-    &:hover {
-      background: $dark-primary-color;
+    &[primary] {
+      background: $primary-color;
+    }
+
+    &[secondary] {
+      background: $secondary-color;
+    }
+
+    &[success] {
+      background: $success-color;
+    }
+
+    &[info] {
+      background: $info-color;
+    }
+
+    &[warning] {
+      background: $warning-color;
+    }
+
+    &[error] {
+      background: $error-color;
+    }
+
+    &[link] {
+      background: $link-color;
     }
   }
 }
