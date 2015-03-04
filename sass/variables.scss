@@ -3,16 +3,21 @@
 // Material Design Colors
 // http://www.google.com/design/spec/style/color.html#color-color-palette
 $primary-color-name:    'indigo' !default;
-$accent-color-name:     'pink' !default;
+$secondary-color-name:	'pink' !default;
 
 $primary-color:         material-color($primary-color-name, '500') !default;
 $light-primary-color:   material-color($primary-color-name, '100') !default;
 $dark-primary-color:    material-color($primary-color-name, '700') !default;
 $text-primary-color:    #fff !default; // Icons color
 
-$accent-color:          material-color($accent-color-name, 'a200') !default;
-$light-accent-color:    material-color($accent-color-name, 'a100') !default; // Fallback accent color
-$dark-accent-color:     material-color($accent-color-name, 'a400') !default; // Fallback accent color
+$secondary-color:         material-color($secondary-color-name, '500') !default;
+$light-secondary-color:   material-color($secondary-color-name, '100') !default;
+$dark-secondary-color:    material-color($secondary-color-name, '700') !default;
+$text-secondary-color:    #fff !default; // Icons color
+
+$accent-color:          material-color($secondary-color-name, 'a200') !default;
+$light-accent-color:    material-color($secondary-color-name, 'a100') !default; // Fallback accent color
+$dark-accent-color:     material-color($secondary-color-name, 'a400') !default; // Fallback accent color
 $text-accent-color:			#fff !default;
 
 $primary-text-color:    material-color('grey', '900') !default;
