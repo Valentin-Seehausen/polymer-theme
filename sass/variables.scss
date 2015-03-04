@@ -3,30 +3,36 @@
 // Material Design Colors
 // http://www.google.com/design/spec/style/color.html#color-color-palette
 $primary-color-name:    'indigo' !default;
-$secondary-color-name:	'pink' !default;
+$secondary-color-name:  'pink' !default;
 
 $primary-color:         material-color($primary-color-name, '500') !default;
 $light-primary-color:   material-color($primary-color-name, '100') !default;
 $dark-primary-color:    material-color($primary-color-name, '700') !default;
 $text-primary-color:    #fff !default; // Icons color
 
-$secondary-color:         material-color($secondary-color-name, '500') !default;
-$light-secondary-color:   material-color($secondary-color-name, '100') !default;
-$dark-secondary-color:    material-color($secondary-color-name, '700') !default;
-$text-secondary-color:    #fff !default; // Icons color
+$secondary-color:       material-color($secondary-color-name, '500') !default;
+$light-secondary-color: material-color($secondary-color-name, '100') !default;
+$dark-secondary-color:  material-color($secondary-color-name, '700') !default;
+$text-secondary-color:  #fff !default; // Icons color
 
 $accent-color:          material-color($secondary-color-name, 'a200') !default;
 $light-accent-color:    material-color($secondary-color-name, 'a100') !default; // Fallback accent color
 $dark-accent-color:     material-color($secondary-color-name, 'a400') !default; // Fallback accent color
-$text-accent-color:			#fff !default;
+$text-accent-color:     #fff !default;
 
 $primary-text-color:    material-color('grey', '900') !default;
 $secondary-text-color:  material-color('grey', '600') !default; // Icons color
-$tertiary-text-color:   $dark-primary-color;
-$hint-text-color:       material-color('grey', '400') !default; // Disabled color
+$hint-text-color:       material-color('grey', '400') !default;
+$disabled-text-color:   material-color('grey', '400') !default;
+
 $divider-color:         material-color('grey', '300') !default;
 $background-color:      material-color('grey', '100') !default;
-$alert-color:           material-color('red', '500') !default;
+$link-color:            $dark-primary-color !default;
+
+$success-color:         material-color('green', '500') !default;
+$info-color:            material-color('blue', '500') !default;
+$warning-color:         material-color('amber', '500') !default;
+$error-color:           material-color('red', '500') !default;
 
 // h1 - h6
 $h1-font-size-base: 2em !default;
