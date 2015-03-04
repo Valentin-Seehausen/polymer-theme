@@ -17,6 +17,7 @@ $text-accent-color:			#fff !default;
 
 $primary-text-color:    material-color('grey', '900') !default;
 $secondary-text-color:  material-color('grey', '600') !default; // Icons color
+$tertiary-text-color:   $dark-primary-color;
 $hint-text-color:       material-color('grey', '400') !default; // Disabled color
 $divider-color:         material-color('grey', '300') !default;
 $background-color:      material-color('grey', '100') !default;
