@@ -6,6 +6,8 @@ Polymer theme based on
 For scaffolding Polymer apps use [Polymer Starter Kit](https://github.com/StartPolymer/polymer-starter-kit)
 or [Polymer generator](https://github.com/yeoman/generator-polymer).
 
+:sparkles: [DEMO](http://polymer-starter-kit.startpolymer.org) :sparkles:
+
 ## Features
 
 - Using [Sass](http://sass-lang.com) CSS Preprocessor
