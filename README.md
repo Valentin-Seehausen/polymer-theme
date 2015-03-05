@@ -29,7 +29,7 @@ $heading-font-name:       'roboto-slab';
 $font-lang:               'en';
 @import 'bower_components/polymer-theme/sass/fonts';
 
-body[polymer-theme] {
+.polymer-theme {
   $primary-color-name:    'indigo';
   $secondary-color-name:  'pink';
   @import 'bower_components/polymer-theme/sass/base';
@@ -39,7 +39,7 @@ body[polymer-theme] {
 ### index.html
 
 ```html
-<body polymer-theme>
+<body class="polymer-theme">
 ```
 
 ## [Variables](https://github.com/StartPolymer/polymer-theme/blob/master/sass/variables.scss)
