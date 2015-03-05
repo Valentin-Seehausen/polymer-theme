@@ -1,61 +1,92 @@
 paper-button {
   &[primary] {
-    color: $primary-color;
+    color: $dark-primary-color;
   }
 
   &[secondary] {
-    color: $secondary-color;
+    color: $dark-secondary-color;
   }
 
   &[success] {
-    color: $success-color;
+    color: $dark-success-color;
   }
 
   &[info] {
-    color: $info-color;
+    color: $dark-info-color;
   }
 
   &[warning] {
-    color: $warning-color;
+    color: $dark-warning-color;
   }
 
   &[error] {
-    color: $error-color;
+    color: $dark-error-color;
   }
 
   &[link] {
-    color: $link-color;  
+    color: $link-color;
+  }
+
+  &[disabled] {
+    &[primary] {
+      color: $light-primary-color;
+    }
+
+    &[secondary] {
+      color: $light-secondary-color;
+    }
+
+    &[success] {
+      color: $light-success-color;
+    }
+
+    &[info] {
+      color: $light-info-color;
+    }
+
+    &[warning] {
+      color: $light-warning-color;
+    }
+
+    &[error] {
+      color: $light-error-color;
+    }
+
+    &[link] {
+      background: $primary-background-color;
+      color: $disabled-link-color;
+    }
   }
 
   &[raised] {
-    color: $text-primary-color;
-
     &[primary] {
       background: $primary-color;
+      color: $text-primary-color;
     }
 
     &[secondary] {
       background: $secondary-color;
+      color: $text-secondary-color;
     }
 
     &[success] {
       background: $success-color;
+      color: $text-success-color;
     }
 
     &[info] {
       background: $info-color;
+      color: $text-info-color;
     }
 
     &[warning] {
       background: $warning-color;
+      color: $text-warning-color;
     }
 
     &[error] {
       background: $error-color;
-    }
-
-    &[link] {
-      background: $link-color;
+      color: $text-error-color;
     }
   }
 }
