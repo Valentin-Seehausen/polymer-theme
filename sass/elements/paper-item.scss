@@ -7,7 +7,7 @@ paper-item {
     color: $text-accent-color;
   }
 
-  /deep/ paper-ripple {
+  &::shadow paper-ripple {
     color: $accent-color;
   }
 
