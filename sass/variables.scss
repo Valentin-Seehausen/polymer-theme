@@ -11,13 +11,13 @@ $warning-color-name:        'amber' !default;
 $error-color-name:          'red' !default;
 
 $primary-color:             material-color($primary-color-name, '500') !default;
-$light-primary-color:       material-color($primary-color-name, '200') !default;
+$light-primary-color:       material-color($primary-color-name, '300') !default;
 $dark-primary-color:        material-color($primary-color-name, '700') !default;
 $background-primary-color:  material-color($primary-color-name, '50') !default;
 $text-primary-color:        #fff !default; // Icons color
 
 $secondary-color:           material-color($secondary-color-name, '500') !default;
-$light-secondary-color:     material-color($secondary-color-name, '200') !default;
+$light-secondary-color:     material-color($secondary-color-name, '300') !default;
 $dark-secondary-color:      material-color($secondary-color-name, '700') !default;
 $background-secondary-color:material-color($secondary-color-name, '50') !default;
 $text-secondary-color:      #fff !default; // Icons color
@@ -28,25 +28,25 @@ $dark-accent-color:         material-color($secondary-color-name, 'a400') !defau
 $text-accent-color:         #fff !default;
 
 $success-color:             material-color($success-color-name, '500') !default;
-$light-success-color:       material-color($success-color-name, '200') !default;
+$light-success-color:       material-color($success-color-name, '300') !default;
 $dark-success-color:        material-color($success-color-name, '700') !default;
 $background-success-color:  material-color($success-color-name, '50') !default;
 $text-success-color:        #fff !default; // Icons color
 
 $info-color:                material-color($info-color-name, '500') !default;
-$light-info-color:          material-color($info-color-name, '200') !default;
+$light-info-color:          material-color($info-color-name, '300') !default;
 $dark-info-color:           material-color($info-color-name, '700') !default;
 $background-info-color:     material-color($info-color-name, '50') !default;
 $text-info-color:           #fff !default; // Icons color
 
 $warning-color:             material-color($warning-color-name, '500') !default;
-$light-warning-color:       material-color($warning-color-name, '200') !default;
+$light-warning-color:       material-color($warning-color-name, '300') !default;
 $dark-warning-color:        material-color($warning-color-name, '700') !default;
 $background-warning-color:  material-color($warning-color-name, '50') !default;
 $text-warning-color:        #fff !default; // Icons color
 
 $error-color:               material-color($error-color-name, '500') !default;
-$light-error-color:         material-color($error-color-name, '200') !default;
+$light-error-color:         material-color($error-color-name, '300') !default;
 $dark-error-color:          material-color($error-color-name, '700') !default;
 $background-error-color:    material-color($error-color-name, '50') !default;
 $text-error-color:          #fff !default; // Icons color
