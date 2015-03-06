@@ -29,6 +29,16 @@ $heading-font-name:       'roboto-slab';
 $font-lang:               'en';
 @import 'bower_components/polymer-theme/sass/fonts';
 
+body {
+  font-family: $body-font;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $heading-font;
+}
+
 .polymer-theme {
   $primary-color-name:    'indigo';
   $secondary-color-name:  'pink';
