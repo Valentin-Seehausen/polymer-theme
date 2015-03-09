@@ -42,7 +42,10 @@ h3 {
 .polymer-theme {
   $primary-color-name:    'indigo';
   $secondary-color-name:  'pink';
-  @import 'bower_components/polymer-theme/sass/base';
+  @import 'bower_components/polymer-theme/sass/variables';
+  /deep/ {
+    @import 'bower_components/polymer-theme/sass/elements/all';
+  }
 }
 ```
 
