@@ -31,12 +31,14 @@ $font-lang:               'en';
 
 body {
   font-family: $body-font;
-}
 
-h1,
-h2,
-h3 {
-  font-family: $heading-font;
+  /deep/ {
+    h1,
+    h2,
+    h3 {
+      font-family: $heading-font;
+    }
+  }
 }
 
 .polymer-theme {
